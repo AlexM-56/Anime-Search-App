@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1464f6; 
+    color: white;
+
+    font-family: 'Francois One', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.menu {
+    text-align: center;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+.menu li {
+    background-color: black;
+    box-sizing: content-box;
+    border: 1px solid white;
+    width: 50%;
+    padding: 2%;
+}
+
+ul.menu {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: black;
+}
+
+.searchBar {
+    width: 100%;
+    text-align: center;
+}
+
+.searchBar input {
+    width: 50%;
+    background-color: white;
+    height: 24px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+    caret-color: black;
+    color: black;
+}
+
+.searchBar button {
+    width: 15%;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card img {
+    max-height: 125px;  
+}
+
+.card {
+    margin-top: 20px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.fullCard p {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.fullCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+}
+
+.row {
+    display: flex;
+}
+
+.columnLeft {
+    flex: 30%;
+    padding-top: 5px;
+}
+
+.columnRight {
+    flex: 70%;
+    padding: 10px;
+}
+
+.col1 {
+    flex: 33%;
+    margin:15px;
+    text-align: center;
+}
+
+.col1 img {
+    height: 80px;
+    width: 50px;
+}
+
+.col2 {
+    flex: 33%;
+    margin: 15px;
+    text-align: center;
+}
+
+.col2 img {
+    height: 80px;
+    width: 50px;
+}
+
+.col3 {
+    flex: 33%;
+    margin: 15px;
+    text-align: center;
+}
+
+.col3 img {
+    height: 80px;
+    width: 50px;
+}
+
+.homeButton {
+    display: block;
+    background-color: black;
+    float: left;
+    font-size: 1em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    margin: 5px;
+}
+
+.contact p {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.contact input {
+    background-color: white;
+    width: 60%;
+}
+
+.contact button {
+    background-color: white;
+    color: black;
+    width: 25%;
+}
+
+#message {
+    margin: 10px;
+    color: black;
+    padding-bottom: 200px;
+}
